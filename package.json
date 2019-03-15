@@ -1,0 +1,29 @@
+{
+    "name": "darker-light-mno-lht",
+    "displayName": "Darker Light Mno Lht",
+    "description": "Custom version of mno lht theme for Visual Studio Code.",
+    "publisher": "feego",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/feego/vscode-theme-darker-mno-lht"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Darker Light Mno Lht",
+                "uiTheme": "vs",
+                "path": "./themes/Darker Light Mno Lht.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "vsce": "^1.58.0"
+    }
+}
